@@ -50,6 +50,7 @@ public class CacheConfiguration {
             createCache(cm, pagnation.domain.User.class.getName() + ".authorities");
             createCache(cm, pagnation.domain.Ponude.class.getName());
             createCache(cm, pagnation.domain.Postupci.class.getName());
+            createCache(cm, pagnation.domain.TenderiHome.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
