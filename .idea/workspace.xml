@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62ada625-f0dd-4a24-afed-3d45b692e7c4" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.jhipster/TenderiHome.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagnation/domain/TenderiHome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagnation/repository/TenderiHomeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagnation/web/rest/TenderiHomeResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/20220902172258_added_entity_TenderiHome.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/liquibase/fake-data/tenderi_home.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/detail/tenderi-home-detail.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/detail/tenderi-home-detail.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/detail/tenderi-home-detail.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/list/tenderi-home.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/list/tenderi-home.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/list/tenderi-home.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/route/tenderi-home-routing-resolve.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/route/tenderi-home-routing-resolve.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/route/tenderi-home-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/service/tenderi-home.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/service/tenderi-home.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/tenderi-home.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/tenderi-home.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pagnation/domain/TenderiHomeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pagnation/web/rest/TenderiHomeResourceIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.yo-rc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pagnation/config/CacheConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagnation/config/CacheConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/liquibase/master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/entity-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/entity-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/list/ponude.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/list/ponude.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/ponude.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/ponude.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/postupci/list/postupci.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/postupci/list/postupci.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/list/tenderi-home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/list/tenderi-home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/list/tenderi-home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/list/tenderi-home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/route/tenderi-home-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/route/tenderi-home-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/tenderi-home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/tenderi-home/tenderi-home.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662129419774</updated>
-      <workItem from="1662129421657" duration="7044000" />
+      <workItem from="1662129421657" duration="9094000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1662132085175</created>
@@ -139,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662139318264</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="init">
+      <created>1662139681125</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662139681125</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

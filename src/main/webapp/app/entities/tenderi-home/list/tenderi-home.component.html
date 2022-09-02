@@ -1,51 +1,10 @@
-<div>
-  <h2 id="page-heading" data-cy="TenderiHomeHeading">
-    <span>Tenderi Homes</span>
+<ul ngbNav #nav="ngbNav" class="nav-tabs">
+  <li [ngbNavItem]="1">
+    <a ngbNavLink>Ponude</a>
+    <ng-template ngbNavContent>
+      <jhi-ponude [ime]="sifra"></jhi-ponude>
+    </ng-template>
+  </li>
+</ul>
 
-    <div class="d-flex justify-content-end">
-      <button class="btn btn-info me-2" (click)="loadAll()" [disabled]="isLoading">
-        <fa-icon icon="sync" [spin]="isLoading"></fa-icon>
-        <span>Refresh List</span>
-      </button>
-    </div>
-  </h2>
-
-  <jhi-alert-error></jhi-alert-error>
-
-  <jhi-alert></jhi-alert>
-
-  <div class="alert alert-warning" id="no-result" *ngIf="tenderiHomes?.length === 0">
-    <span>No tenderiHomes found</span>
-  </div>
-
-  <div class="table-responsive" id="entities" *ngIf="tenderiHomes && tenderiHomes.length > 0">
-    <table class="table table-striped" aria-describedby="page-heading">
-      <thead>
-        <tr>
-          <th scope="col"><span>ID</span></th>
-          <th scope="col"></th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr *ngFor="let tenderiHome of tenderiHomes; trackBy: trackId" data-cy="entityTable">
-          <td>
-            <a [routerLink]="['/tenderi-home', tenderiHome.id, 'view']">{{ tenderiHome.id }}</a>
-          </td>
-          <td class="text-end">
-            <div class="btn-group">
-              <button
-                type="submit"
-                [routerLink]="['/tenderi-home', tenderiHome.id, 'view']"
-                class="btn btn-info btn-sm"
-                data-cy="entityDetailsButton"
-              >
-                <fa-icon icon="eye"></fa-icon>
-                <span class="d-none d-md-inline">View</span>
-              </button>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+<div [ngbNavOutlet]="nav" class="mt-2"></div>

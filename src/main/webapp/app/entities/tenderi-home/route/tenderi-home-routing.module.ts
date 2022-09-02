@@ -10,6 +10,9 @@ const tenderiHomeRoute: Routes = [
   {
     path: '',
     component: TenderiHomeComponent,
+    data: {
+      defaultSort: 'id,asc',
+    },
     canActivate: [UserRouteAccessService],
   },
   {

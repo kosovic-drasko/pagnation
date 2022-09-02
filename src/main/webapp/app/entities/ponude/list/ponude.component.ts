@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { HttpHeaders, HttpResponse } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
 import { combineLatest } from 'rxjs';
@@ -23,8 +23,8 @@ export class PonudeComponent implements OnInit {
   predicate!: string;
   ascending!: boolean;
   ngbPaginationPage = 1;
-  ime?: string;
 
+  @Input() ime: any;
   constructor(
     protected ponudeService: PonudeService,
     protected activatedRoute: ActivatedRoute,
@@ -48,7 +48,7 @@ export class PonudeComponent implements OnInit {
 
     this.ponudeService
       .query({
-        'ime.in': 'luka',
+        'ime.in': this.ime,
         page: pageToLoad - 1,
         size: this.itemsPerPage,
         sort: this.sort(),
