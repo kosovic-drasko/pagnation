@@ -1,0 +1,20 @@
+{
+  "changelogDate": "20220902150422",
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "broj",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "ime",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Ponude",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
