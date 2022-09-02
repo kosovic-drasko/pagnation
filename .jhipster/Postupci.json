@@ -1,0 +1,18 @@
+{
+  "changelogDate": "20220902171635",
+  "fields": [
+    {
+      "fieldName": "broj",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "ime",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Postupci",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
