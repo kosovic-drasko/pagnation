@@ -23,6 +23,7 @@ export class PonudeComponent implements OnInit {
   predicate!: string;
   ascending!: boolean;
   ngbPaginationPage = 1;
+  postupak?: number;
 
   constructor(
     protected ponudeService: PonudeService,
@@ -30,7 +31,17 @@ export class PonudeComponent implements OnInit {
     protected router: Router,
     protected modalService: NgbModal
   ) {}
+  ngOnInit(): void {
+    this.activatedRoute.queryParams.subscribe(params => {
+      this.postupak = params['sifra'];
+    });
 
+    if (this.postupak !== undefined) {
+      this.handleNavigationSifra();
+    } else {
+      this.handleNavigation();
+    }
+  }
   loadPageSifra(page?: number, dontNavigate?: boolean): void {
     this.isLoading = true;
     const pageToLoad: number = page ?? this.page ?? 1;
@@ -76,10 +87,6 @@ export class PonudeComponent implements OnInit {
       });
   }
 
-  ngOnInit(): void {
-    this.handleNavigation();
-  }
-
   trackId(_index: number, item: IPonude): number {
     return item.id!;
   }
@@ -117,6 +124,7 @@ export class PonudeComponent implements OnInit {
       }
     });
   }
+
   protected handleNavigation(): void {
     combineLatest([this.activatedRoute.data, this.activatedRoute.queryParamMap]).subscribe(([data, params]) => {
       const page = params.get('page');

@@ -4,46 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62ada625-f0dd-4a24-afed-3d45b692e7c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.jhipster/Ponude.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagnation/domain/Ponude.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagnation/repository/PonudeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagnation/service/PonudeQueryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagnation/service/PonudeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagnation/service/criteria/PonudeCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pagnation/web/rest/PonudeResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/20220902150422_added_entity_Ponude.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/liquibase/fake-data/ponude.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/delete/ponude-delete-dialog.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/delete/ponude-delete-dialog.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/delete/ponude-delete-dialog.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/detail/ponude-detail.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/detail/ponude-detail.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/detail/ponude-detail.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/list/ponude.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/list/ponude.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/list/ponude.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/ponude.model.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/ponude.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/route/ponude-routing-resolve.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/route/ponude-routing-resolve.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/route/ponude-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/service/ponude.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/service/ponude.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/update/ponude-update.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/update/ponude-update.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/update/ponude-update.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pagnation/domain/PonudeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pagnation/web/rest/PonudeResourceIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="62ada625-f0dd-4a24-afed-3d45b692e7c4" name="Changes" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yo-rc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.yo-rc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pagnation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pagnation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pagnation/config/CacheConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pagnation/config/CacheConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/liquibase/master.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/entity-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/entity-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/layouts/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/list/ponude.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/entities/ponude/list/ponude.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/app/home/home.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,8 +85,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662129419774</updated>
-      <workItem from="1662129421657" duration="2019000" />
+      <workItem from="1662129421657" duration="5603000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1662132085175</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662132085175</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,5 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
