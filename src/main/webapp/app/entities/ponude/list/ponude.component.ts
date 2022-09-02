@@ -23,7 +23,7 @@ export class PonudeComponent implements OnInit {
   predicate!: string;
   ascending!: boolean;
   ngbPaginationPage = 1;
-  postupak?: number;
+  ime?: string;
 
   constructor(
     protected ponudeService: PonudeService,
@@ -33,10 +33,10 @@ export class PonudeComponent implements OnInit {
   ) {}
   ngOnInit(): void {
     this.activatedRoute.queryParams.subscribe(params => {
-      this.postupak = params['sifra'];
+      this.ime = params['sifra'];
     });
 
-    if (this.postupak !== undefined) {
+    if (this.ime !== undefined) {
       this.handleNavigationSifra();
     } else {
       this.handleNavigation();
